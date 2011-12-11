@@ -23,7 +23,7 @@ The anti captcha of fighting spam technique is described in detail here: http://
     from anti_spam.decorators import anticaptcha
 
 
-    @anti_spam
+    @anticaptcha
     class MyContactForm(forms.Form):
         ...
 
